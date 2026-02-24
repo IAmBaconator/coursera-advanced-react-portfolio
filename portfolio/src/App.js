@@ -13,7 +13,12 @@ function App() {
     <ChakraProvider>
       <AlertProvider>
         <main>
-
+          <Header />
+          {/* Landing Section */}
+          {/* Projects Section */}
+          {/* Contact Me Section */}
+          {/* Footer */}
+          {/* Alert */}
         </main>
       </AlertProvider>
     </ChakraProvider>
