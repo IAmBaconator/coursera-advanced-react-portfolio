@@ -1,6 +1,8 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { AlertProvider } from "./context/alertContext";
 
+import Header from "./components/Header";
+
 
 /* TEMP References
 * Chakra-UI: https://chakra-ui.com/docs/components/concepts/overview
