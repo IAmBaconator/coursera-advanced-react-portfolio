@@ -1,4 +1,4 @@
-import { ChakraProvider } from "@chakra-ui/react";
+import { Provider } from "./components/ui/provider";
 import { AlertProvider } from "./context/alertContext";
 
 import Header from "./components/Header";
@@ -12,7 +12,7 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <ChakraProvider>
+    <Provider>
       <AlertProvider>
         <main>
           <Header />
@@ -23,7 +23,7 @@ function App() {
           {/* Alert */}
         </main>
       </AlertProvider>
-    </ChakraProvider>
+    </Provider>
   );
 }
 
