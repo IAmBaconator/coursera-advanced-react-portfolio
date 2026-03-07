@@ -42,6 +42,7 @@ const Header = () => {
         block: "start",
       });
     }
+    window.location.hash = `#${anchor}`;
   };
 
   return (
@@ -74,7 +75,8 @@ const Header = () => {
           </nav>
           <nav>
             <HStack spacing={8}>
-              {/* Add links to Projects and Contact me section */}
+              <a onClick={handleClick("projects")}>Projects</a>
+              <a onClick={handleClick("contact-me")}>Contact Me</a>
             </HStack>
           </nav>
         </HStack>
