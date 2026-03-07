@@ -2,6 +2,7 @@ import { Provider } from "./components/ui/provider";
 import { AlertProvider } from "./context/alertContext";
 
 import Header from "./components/Header";
+import LandingSection from "./components/LandingSection";
 
 
 /* TEMP References
@@ -16,7 +17,7 @@ function App() {
       <AlertProvider>
         <main>
           <Header />
-          {/* Landing Section */}
+          <LandingSection />
           {/* Projects Section */}
           {/* Contact Me Section */}
           {/* Footer */}
