@@ -3,6 +3,7 @@ import { AlertProvider } from "./context/alertContext";
 
 import Header from "./components/Header";
 import LandingSection from "./components/LandingSection";
+import ProjectsSection from "./components/ProjectsSection";
 
 
 /* TEMP References
@@ -18,7 +19,7 @@ function App() {
         <main>
           <Header />
           <LandingSection />
-          {/* Projects Section */}
+          <ProjectsSection />
           {/* Contact Me Section */}
           {/* Footer */}
           {/* Alert */}
