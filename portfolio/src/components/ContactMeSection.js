@@ -3,6 +3,12 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import useSubmit from "./hooks/useSubmit";
 import { useAlertContext } from "../context/alertContext";
+import {
+  FormLabel,
+  Input,
+  Select,
+  Textarea,
+} from "@chakra-ui/react";
 import FullScreenSection from "./FullScreenSection";
 
 const ContactMeSection = () => {
